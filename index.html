@@ -25,9 +25,46 @@
 
 <body>
     <!-- Content
+
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<div id="header">
+  <h1> Simple Calculator</h1>
+</div>
 
 
+  <div id="fullbox">
+
+
+
+      <div id="buttons">
+        <form>
+
+        <input id="display" type="text" disabled><input id="bb" type="button" value="C" onclick="cancel()"> <br>
+        <input class="but" type="button" value="1" onclick="addtoscreen('1')">
+        <input class="but" type="button" value="2" onclick="addtoscreen('2')" >
+        <input class="but" type="button" value="3" onclick="addtoscreen('3')">
+        <input class="but" type="button" value="+" onclick="addtoscreen('+')"> <br>
+        <input class="but" type="button" value="4" onclick="addtoscreen('4')">
+        <input class="but" type="button" value="5" onclick="addtoscreen('5')">
+        <input class="but" type="button" value="6" onclick="addtoscreen('6')">
+        <input class="but" type="button" value="-" onclick="addtoscreen('-')"><br>
+        <input class="but" type="button" value="7" onclick="addtoscreen('7')">
+        <input class="but" type="button" value="8" onclick="addtoscreen('8')">
+        <input class="but" type="button" value="9" onclick="addtoscreen('9')">
+        <input class="but" type="button" value="*" onclick="addtoscreen('*')"><br>
+        <input class="but" type="button" value="0" onclick="addtoscreen('0')">
+        <input class="but" type="button" value="=" onclick="answer()">
+        <input class="but" type="button" value="AC"onclick="addtoscreen('ac')">
+        <input class="but" type="button" value="%" onclick="addtoscreen('%')">
+
+
+      </form>
+      </div>
+  </div>
+
+  <script src="script.js">
+
+  </script>
     <!-- End Document
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 </body>
